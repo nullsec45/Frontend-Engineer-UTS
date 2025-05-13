@@ -1,0 +1,21 @@
+.container {
+    margin: 1rem;
+}
+
+.province {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.province__title {
+    color: #06D6A0;
+    margin-bottom: 1rem;
+    font-size: 3.52rem;
+}
+
+.province__subtitle {
+    color: #118AB2;
+    margin-bottom: 1rem;
+    font-size: 1.563rem;
+}

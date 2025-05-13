@@ -1,0 +1,43 @@
+.container {
+    margin: 1rem;
+    overflow-x: auto;
+}
+
+.container__row {
+    color: #06D6A0;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+table,th,td {
+    border: 1px solid #64748B;
+    text-align: center ;
+}
+
+td{
+    color: #64748B;
+}
+
+
+.table__title {
+    border: 1px solid #dddddd;
+    color: white;
+}
+
+
+
+.container__table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    max-width: 1200px;
+    margin: 50px auto;
+    border: 1px solid #ddd;
+}
+
+
+

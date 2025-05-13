@@ -1,0 +1,74 @@
+.container {
+    margin: 1rem;
+}
+
+.indonesia {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.indonesia__title {
+    color: #06D6A0;
+    margin-bottom: 1rem;
+    font-size: 3.52rem;
+}
+
+.indonesia__subtitle {
+    color: #118AB2;
+    margin-bottom: 1rem;
+    font-size: 1.563rem;
+}
+
+.indonesia__cards {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+  @media screen and (max-width: 600px) {
+    .indonesia__title {
+      font-size: 2.5rem;
+    }
+  
+    .indonesia__subtitle {
+      font-size: 1.25rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .indonesia__cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .indonesia__title {
+        font-size: 3rem;
+      }
+
+    .indonesia__subtitle {
+       font-size: 1.4rem;
+    }
+  } 
+
+  @media screen and (max-width: 992px) {
+    .indonesia__title {
+      font-size: 3.2rem;
+    }
+  
+    .indonesia__subtitle {
+      font-size: 1.45rem;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .indonesia__title {
+      font-size: 3.52rem; 
+    }
+  
+    .indonesia__subtitle {
+      font-size: 1.563rem;
+    }
+  }
