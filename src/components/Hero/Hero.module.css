@@ -39,7 +39,7 @@
 
 button:hover {
   cursor: pointer;
-  opacity: 80%;
+  opacity: 50%;
   transition: background-color 1s ease 0s;
 }
 
@@ -71,10 +71,10 @@ button:active {
   }
 
   .hero__left {
-    flex-basis: 55%; /* Adjust width to make it a bit wider */
+    flex-basis: 55%;
   }
 
   .hero__right {
-    flex-basis: 45%; /* Adjust width to make it a bit narrower compared to left */
+    flex-basis: 45%; 
   }
 }
